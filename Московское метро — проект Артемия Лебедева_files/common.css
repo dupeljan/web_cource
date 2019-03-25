@@ -1,0 +1,874 @@
+body { background:#000; color:#bebebe; font-size:100%; line-height:1.3; margin:0; }
+
+/** Basic styles **/
+a:link { color:#0099D0; }
+a:visited { color:#AB73A2; }
+a:hover { color:#c00; }
+a:link:active, a:visited:active {color: #38809C;}
+a:link.text, a:visited.text { color: #BEBEBE; }
+a.content { color:#fff; }
+
+img { border:0px; }
+
+h1 { font-size:1.5em; }
+h2 { font-size:1.3em; margin:1em 0 0.5em; }
+
+hr { background: #555; border: 0; color: #555; height: 1px; }
+
+p { margin:0.5em 0; }
+p.desc { font-size:0.9em; }
+
+ul { list-style:none; }
+
+small { font-size: .9em; }
+
+/* Files */
+.dn-file { margin-bottom:1em; }
+.dn-file .icon { float:left; padding-right:0.2em; }
+.dn-file .title { float:left; padding-right:0.3em; }
+.dn-file .size { float:left; font-size:0.9em; padding-top:0.2em; }
+.dn-file .description { margin-left:24px; padding-left:0.3em; font-size:0.9em; }
+
+/* Special ideas */
+div.clear { float:none; clear:both; height:0px; font-size:0px; overflow:hidden; }
+.align-center { position: relative; width: 100%; }
+.align-center:after { content: ''; display: block; clear: both; }
+.align-center-to-left { position: relative; right: 50%; float: right; }
+.align-center-to-right { position: relative; z-index: 1; right: -50%; }
+
+.block { display: block; }
+.container { overflow: hidden; width: 100%; }
+.container .column { float: left; padding-right: 5%; }
+.container .column dt { margin-bottom:0.5em; }
+.line { padding: .1em .2em; font-size:0.9em; }
+.line, .line :link, .line :visited { color: #fff; }
+.small { font-size:0.75em; }
+.subheader { font-size: .8em; font-style: italic; }
+
+img.logo		{display:block;}
+/*div.footnote	{border-top: 1px solid #555; font-size: .9em; margin-top:2em;}*/
+div.footnote	{ font-size:.9em; margin:0 0 3em; font-style:italic; }
+#item-content .footnote { margin:2em 0 3em; }
+div.footnote p	{margin:.2em 0 0;}
+.quote			{ width:65%; font-size:0.9em; margin:2em 0 2em 3em; }
+
+#header { margin-bottom:0; background:#000; }
+
+
+#content { float: left; width: 66%; }
+#content-center { margin: 0 5%; }
+
+/* Extra block */
+#extra { font-size: 85%; float: left; width: 32%; margin-bottom: 2em; padding-right:2%; }
+#extra #original-book-name { font-style:normal; }
+
+/* Maps */
+.maps #content { float: left; width: 100%; }
+.maps #content .switch { margin-bottom:2em; font-size:0.98em; }
+.maps #content .switch * { margin-right:0.5em; padding:0.1em 0.2em; }
+.maps #content .switch b { font-weight:normal; background:#1f1f1f; color:#c3c3c3; }
+.maps #extra { float: none; width: 100%; padding-right: 0; }
+.maps #extra * { margin-right: 3%; }
+.maps #extra a { margin-right: 0; }
+.maps #extra p { width: 28%; float: left; }
+.maps #extra img { float: left; }
+.maps #extra .last { margin-right: 0; }
+.preview-list .year { margin-bottom:0.4em; }
+.image-list .year { margin-bottom:1.5em; }
+.maps .switch { float:left; margin:0; padding:0; }
+.maps .switch li { float:left; }
+.maps .tag { position:relative; padding:0.1em 0.2em; }
+.maps .tag b { font-weight:normal; background:#1f1f1f; color:#c3c3c3; }
+.maps .tag .count { position:absolute; top:1.65em; right:50%; font-size:0.75em; color:#747474; }
+
+.maps .tags { margin-top:1em; text-align:left; font-size:0.95em; cursor:default; }
+
+#home-sections dl { float: left; width: 30%; padding-right: 3%; position: relative; }
+
+.picture	{ margin:1em 0.5em 4em 0; font-size:0.8em; /*font-style:italic;*/ }
+.picture .description { margin:0.5em 0 0 0; }
+
+div.home-left { float: left; width: 33%; /*margin-top:1.6em;*/ padding-right:3%; }
+
+#home-header div.home-left	{ padding-right:0px; }
+div.home-right .articles { font-size:0.9em; }
+#article-archive-link { font-size:0.9em; }
+div.image { margin: 1.33em 0 0; }
+div.layout { min-width:640px; max-width:1700px; padding: 0 20px; }
+div.map { max-width:none; }
+div.layout .nav { margin-bottom:1em; }
+div.navigation { font-size: .9em; }
+div.navigation div.larr { float: left; width: 2%; text-align: right; }
+div.navigation div.prev { float: left; width: 31%; }
+div.navigation div.toc { float: left; width: 33%; text-align: center; }
+div.navigation div.next { float: right; width: 31%; text-align: right; }
+div.navigation div.rarr { float: right; width: 2%; }
+div.subimage { font-size: 85%; }
+div.subimage p:first-child { margin-top: 0; }
+div.subtitle { font-size: 85%; font-style: italic; }
+
+div#map-nav { overflow: hidden; position: relative; width: 100%; height: 150px; }
+div#map-nav table { position: absolute; }
+
+.map-key-nav { float:right; margin-bottom:0.5em; }
+
+dd.lead { font-size: .9em;}
+
+dl.articles dt { margin: .5em 0 0; }
+dl.articles dl { margin: 0 0 .5em; }
+dl.articles h4 { margin: 1em 0 0; }
+
+dl.sections dt { margin: .5em 0 0; }
+dl.sections dd { margin: 0.1em 0 1em; }
+dl.sections h3 { margin: 0; }
+
+.station-codes { width:80%; margin:3em 0; }
+.station-codes th { padding-bottom:1.2em; }
+.station-codes td { padding-bottom:0.75em; }
+
+dl.station-info dt { width: 20%; }
+dl.station-info dd { margin: -1.3em 0 0 20%; }
+
+.pseudo { border-bottom: 1px dashed #bebebe; cursor: hand; cursor: pointer; }
+.selected { background: #555; color: fff; padding: 0 .2em; color:white !important; }
+
+table.data { border: 0; border-collapse: collapse; }
+table.data td { border: 0; }
+
+/* Navigation */
+ul.image-nav { overflow: auto; margin-left: 0; padding-left: 0; position: relative; width: 100%; height: 134px; }
+ul.image-nav li { background: url('/i/slide-100.gif') top left no-repeat; border: 2px solid black; padding: 5px; position: absolute; width: 100px; height: 100px; }
+ul.image-nav li.selected { border: 2px solid red; }
+ul.image-nav a { display: block; width: 100px; height: 100px; }
+
+ul.line-nav { font-size: .9em; margin: 0; padding: 0; overflow: auto; width: 100%; }
+ul.line-nav li { float: left; list-style: none; margin: 0; padding: 0; width: 50%; }
+ul.line-nav li.next { text-align: right; }
+
+ul.navigation { font-size: .9em; margin: 1em 0; padding: 0; overflow: auto; width: 100%; }
+ul.navigation li { float: left; list-style: none; margin: 0; padding: 0; width: 33%; }
+ul.navigation li.contents { text-align: center; }
+ul.navigation li.next { text-align: right; }
+
+ul.station-nav { margin:0 0 0.9em 0; padding: 0; overflow: auto; width: 100%; }
+ul.station-nav li { float: left; list-style: none; margin: 0; padding: 0; width: 20%; }
+
+ul.sections li		{ margin: 1em 0; }
+ul.sections small	{ display: block; font-size: .9em; }
+ul.article-list li	{ margin: 1em 0; }
+
+/* here follows the brillant "no-extra-markup" clearing method devised by Tony Aslett - www.csscreator.com */
+.clearfix:after	{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix		{display:inline-block;}
+.clear { height:0; clear:both; visibility:hidden; }
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+/* end of "no-extra-markup" clearing method */
+
+/* Common page */
+div.m1				{width: 70%; margin: 1em 0;}
+
+/* Galleries */
+div.i 			{float:left;margin:.5em;}
+div#gallery		{clear:both; margin-top: 1em;}
+div#gallery h2	{margin: .5em 0;padding:0;}
+div#gallery-navigation {float:left;clear:both;width:100%;}
+div#gallery p	{font-size: 1em;}
+div.thum-200	{width: 220px; height: 300px; margin: 0 22px 22px 0; float: left; font-size: 85%;}
+div.t-img-200	{width: 220px; height: 220px; margin-bottom: 0.5em; text-align:center; background:url('/f/1/slide.jpg') top left no-repeat;}
+div.t-txt-200	{padding-left: 10px; color:#555}
+div.thum-100	{width: 110px; height: 110px; margin: 0 11px 11px 0; float: left; font-size: 85%;}
+div.t-img-100	{padding:0;width: 110px; height: 110px; margin-bottom: 0.2em; text-align:center; background: black url('/i/slide-100.gif') top left no-repeat;}
+.navi-list		{float:left;width: 33%;font-size:.8em;margin:2em 0;}
+div.description {clear:both;width:63%;position:relative;float:left;}
+div.description div.footnote {/*position:absolute; top: 0; right:-50%;*/width: 40%;border:none;}
+div#gallery ul	{float:none; padding-left:0;}
+
+/* Previews */
+div.preview-list { width:100%; }
+div.preview-list dl { float:left; //position:relative; margin:0 30px 30px 0; width:220px; height:350px; text-align:center; }
+div.preview-list dt { display:table; background: url('/i/slide.gif') top left no-repeat; width:220px; height:220px; }
+div.preview-list dd { color: #555; font-size:0.85em; margin:5px 10px; }
+div.preview-list a { display:table-cell; vertical-align:middle; //position:absolute; //top:110px; //left:50%; }
+div.preview-list a img { //position:relative; //top:-50%; //left:-50%; }
+div.preview-list .name a { display:block; font-size:0.95em; //position:static; }
+
+/* Stations */
+#line1 { background: #cd0505; }
+#line2 { background: #0a6f20; }
+#line3 { background: #023a7a; }
+#line4 { background: #069cd3; }
+#line5 { background: #7f0000; }
+#line6 { background: #ff7f00; }
+#line7 { background: #92007b; }
+#line8 { background: #d5cf24; }
+#line9 { background: #7e8196; }
+#line10 { background: #8fb00e; }
+#line11 { background: #29b1a6; }
+#line12 { background: #8bc0d1; }
+
+/* Stations */
+.stations .sections { margin:0 0 2em 2.5em; }
+.stations .lead { margin-left:1.4em; }
+.stations dd .lead { margin-left:0; }
+.station-info { font-size:0.9em; }
+.station-info dt { margin-top:0.75em; }
+
+/* Articles */
+div#article		{clear:both;margin-bottom:2em;}
+div#article p	{font-size: 1em;}
+div#article p.small	{font-size: .9em;}
+div#article ul	{float:none;}
+div#article ul a {font-size: 1.1em; background: url(/i/arr.gif) center left no-repeat; padding-left: 15px;}
+
+/* Library */
+#item-content	{ margin-bottom:4em; }
+#item-content img	{ display:block; margin:1em 0.2em 0.2em;}
+#item-content .subsection
+
+/* Tags */
+#tag-cloud { margin:2em 0; }
+#tag-cloud .tag { padding-right:1em; }
+
+/* Search field */
+#search { margin:2em 0 5em 0; }
+#search input { width:100% !important; }
+#search .empty { color:#8e8e8e; }
+
+/*.text-content p { margin-bottom:2em; }*/
+
+/* Footer */
+#footer {  margin-bottom:2em; }
+#footer-logo { float: left; width: 10%; }
+#footer-logo p {text-align:center;}
+#footer-copyright { float: left; width: 58%; padding-right: 2%; font-size:85%; }
+#footer-search { float: left; width: 30%; }
+#artlebedev-logo { float: right; margin: 1em 0; }
+=======
+body { background:#000; color:#BEBEBE; font-size:100%; line-height:1.3; margin:0; }
+
+/** Basic styles **/
+
+
+.nav a:hover, .nav_cnt#lib_navigation a:hover, a:hover { color:#c00; }
+a:link:active, a:visited:active,
+.nav a:link:active, .nav a:visited:active,
+.nav_cnt#lib_navigation a:link:active, .nav_cnt#lib_navigation a:visited:active{
+color: #38809C;
+}
+a:link.text, a:visited.text, .nav a:link.text, .nav a:visited.text { color: #BEBEBE; }
+a.content, .nav a.content { color:#fff; }
+
+
+
+h1 { font-size:1.5em; }
+
+
+
+
+p.desc { font-size:0.9em; margin-top:0em; margin-bottom:2em;}
+
+ul { list-style:none; padding-left:0;}
+
+small { font-size: .9em; }
+
+/* Files */
+.dn-file { margin-bottom:1em; }
+.dn-file .icon { float:left; padding-right:0.2em; }
+.dn-file .title { float:left; padding-right:0.3em; }
+.dn-file .size { float:left; font-size:0.9em; padding-top:0.2em; }
+.dn-file .description { margin-left:24px; padding-left:0.3em; font-size:0.9em; }
+
+/* Special ideas */
+div.clear { float:none; clear:both; height:0px; font-size:0px; overflow:hidden; }
+.align-center { position: relative; width: 100%; }
+.align-center:after { content: ''; display: block; clear: both; }
+.align-center-to-left { position: relative; right: 50%; float: right; }
+.align-center-to-right { position: relative; z-index: 1; right: -50%; }
+
+.block { display: block; }
+
+.container .column { float: left; padding-right: 2%; }
+.container .column dt { margin-bottom:0em; }
+.line { padding: .1em .2em; font-size:0.9em; }
+.line, .line :link, .line :visited { color: #fff; }
+.small { font-size:0.75em; }
+.subheader { font-size: .8em; font-style: italic; }
+
+img.logo		{display:block;}
+/*div.footnote	{border-top: 1px solid #555; font-size: .9em; margin-top:2em;}*/
+div.footnote	{ font-size:.9em; margin:0 0 3em; font-style:italic; }
+#item-content .footnote { margin:2em 0 3em; }
+div.footnote p	{margin:.2em 0 0;}
+.quote			{ width:65%; font-size:0.9em; margin:2em 0 2em 3em; }
+
+
+
+
+#content-center { margin: 0 5%; }
+
+
+/* Extra block */
+
+#extra #original-book-name { font-style:normal; }
+
+/* Maps */
+.maps #content { float: left; width: 100%; }
+.maps #content .switch { margin-bottom:2em; font-size:0.98em; }
+.maps #content .switch * { margin-right:0.5em; padding:0.1em 0.2em; }
+.maps #content .switch b { font-weight:normal; background:#1f1f1f; color:#c3c3c3; }
+.maps #extra { float: none; width: 100%; padding-right: 0; }
+.maps #extra * { margin-right: 3%; }
+.maps #extra p { width: 28%; float: left; }
+.maps #extra img { float: left; }
+.maps #extra .last { margin-right: 0; }
+.preview-list .year { margin-bottom:0.4em; }
+.image-list .year { margin-bottom:1.5em; }
+.maps .switch { float:left; margin:0; padding:0; }
+.maps .switch li { float:left; }
+.maps .tag { position:relative; padding:0.1em 0.2em; }
+.maps .tag b { font-weight:normal; background:#1f1f1f; color:#c3c3c3; }
+.maps .tag .count { position:absolute; top:1.5em; right:50%; font-size:0.75em; color:#747474; }
+
+#home-sections dl { float: left; width: 30%; padding-right: 3%; position: relative; }
+
+.picture	{ margin:0em 0.5em 1em 0; font-size:0.8em; /*font-style:italic;*/ }
+.picture .description { margin:0.5em 0 0 0; }
+
+div.home-left { float: left; width: 23%; /*margin-top:1.6em;*/ padding-right:3%; }
+.head-left {float:left; padding-right:0; width:33%}
+div.home-right { float: right; width: 67%;}
+#footer_articles{width:67%;}
+div.home-right .articles { font-size:0.9em; margin-left:-4.5em;}
+div.home-right .articles .date{ font-size:0.7em; color:#666666; padding-top:0.2em;}
+#article-archive-link { font-size:0.9em; }
+div.image { margin: 1.33em 0 0; }
+
+div.map { max-width:none; }
+div.navigation { font-size: .9em; }
+div.navigation div.larr { float: left; width: 2%; text-align: right; }
+div.navigation div.prev { float: left; width: 45%; }
+div.navigation div.toc { float: left; width: 5%; text-align: center; }
+div.navigation div.next { float: right; width: 45%; text-align: right; }
+div.navigation div.rarr { float: right; width: 2%; }
+div.subimage { font-size: 85%; }
+div.subimage p:first-child { margin-top: 0; }
+
+
+div#map-nav { overflow: hidden; position: relative; width: 100%; height: 150px; }
+div#map-nav table { position: absolute; }
+
+.map-key-nav { float:right; margin-bottom:0.5em; }
+
+dd.lead { font-size: .9em;}
+
+dl.articles dt { margin: 15px 0 0; }
+dl.articles dl { margin: 0 0 .5em; }
+dl.articles h4 { margin: 1em 0 0; }
+
+dl.sections dt { margin: .5em 0 0; }
+dl.sections dd { margin: 0.1em 0 1em; }
+dl.sections h3 { margin: 0; }
+
+.station-codes { width:80%; margin:3em 0; }
+.station-codes th { padding-bottom:1.2em; }
+.station-codes td { padding-bottom:0.75em; }
+
+dl.station-info dt { width: 20%; }
+dl.station-info dd { margin: -1.3em 0 0 20%; }
+
+/* Pseudo navigation */
+span.pseudo { border-bottom: 1px dashed #bebebe; cursor: hand; cursor: pointer; }
+span.selected { border-bottom: 1px solid #555; cursor: default; background: #555; color: fff; padding: 0 .2em; }
+
+table.data { border: 0; border-collapse: collapse; }
+table.data td { border: 0; }
+
+/* Navigation */
+ul.image-nav { overflow: auto; margin-left: 0; padding-left: 0; position: relative; width: 100%; height: 134px; }
+ul.image-nav li { background: url('/i/slide-100.gif') top left no-repeat; border: 2px solid black; padding: 5px; position: absolute; width: 100px; height: 100px; }
+ul.image-nav li.selected { border: 2px solid red; }
+ul.image-nav a { display: block; width: 100px; height: 100px; }
+
+ul.line-nav { font-size: .9em; margin: 0; padding: 0; overflow: auto; width: 100%; }
+ul.line-nav li { float: left; list-style: none; margin: 0; padding: 0; width: 50%; }
+ul.line-nav li.next { text-align: right; }
+ul.line-nav li a.text {color:#333333;}
+
+ul.navigation { font-size: .9em; margin: 1em 0; padding: 0; overflow: auto; width: 100%; }
+ul.navigation li { float: left; list-style: none; margin: 0; padding: 0; width: 33%; }
+ul.navigation li.contents { text-align: center; }
+ul.navigation li.next { text-align: right; }
+
+ul.station-nav { margin:0 0 0.1em 0; padding: 0; overflow: auto; width: 100%; }
+ul.station-nav li { float: left; list-style: none; margin: 0; padding: 0; width: 20%; text-align:center; }
+ul.station-nav li a.text {color:#fff;}
+
+div.line{ margin-top:2em;}
+
+ul.sections li		{ margin: 1em 0; }
+ul.sections small	{ display: block; font-size: .9em; }
+ul.article-list li	{ margin: 1em 0; }
+
+/* here follows the brillant "no-extra-markup" clearing method devised by Tony Aslett - www.csscreator.com */
+.clearfix:after	{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix		{display:inline-block;}
+.clear { height:0; clear:both; visibility:hidden; }
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+/* end of "no-extra-markup" clearing method */
+
+/* Common page */
+div.m1				{width: 70%; margin: 1em 0;}
+
+/* Galleries */
+div.i 			{float:left;margin:.5em;}
+div#gallery		{clear:both; margin-top: 1em;}
+div#gallery h2	{margin: .5em 0;padding:0;}
+div#gallery-navigation {float:left;clear:both;width:100%;}
+div#gallery p	{font-size: 1em;}
+div.thum-200	{width: 220px; height: 300px; margin: 0 22px 22px 0; float: left; font-size: 85%;}
+div.t-img-200	{width: 220px; height: 220px; margin-bottom: 0em; text-align:center; background: url('/f/1/slide.jpg') top left no-repeat;}
+div.t-img-200 table img{margin-bottom:0px; margin-right:0px;}
+div.t-txt-200	{padding-left: 10px; color:#555}
+div.thum-100	{width: 110px; height: 110px; margin: 0 11px 11px 0; float: left; font-size: 85%;}
+div.t-img-100	{padding:0;width: 110px; height: 110px; margin-bottom: 0.2em; text-align:center; background: black url('/i/slide-100.gif') top left no-repeat;}
+.navi-list		{float:left;width: 33%;font-size:.8em;margin:2em 0;}
+div.description {clear:both;width:63%;position:relative;float:left;}
+div.description div.footnote {/*position:absolute; top: 0; right:-50%;*/width: 40%;border:none;}
+div#gallery ul	{float:none;}
+
+/* Previews */
+div.preview-list { width:100%; }
+div.preview-list dl { float:left; //position:relative; margin:0 30px 30px 0; width:220px; height:350px; text-align:center; }
+div.preview-list dt { display:table; background: url('/i/slide.gif') top left no-repeat; width:220px; height:220px; }
+div.preview-list dd { color: #555; font-size:0.85em; margin:5px 10px; }
+div.preview-list a { display:table-cell; vertical-align:middle; //position:absolute; //top:110px	; //left:50%; }
+div.preview-list a img { //position:relative; //top:-50%; //left:-50%; }
+div.preview-list .name a { display:block; font-size:0.95em; //position:static; }
+
+/* Stations */
+#line1 { background: #cd0505; }
+#line2 { background: #0a6f20; }
+#line3 { background: #023a7a; }
+#line4 { background: #069cd3; }
+#line5 { background: #7f0000; }
+#line6 { background: #ff7f00; }
+#line7 { background: #92007b; }
+#line8 { background: #d5cf24; }
+#line9 { background: #7e8196; }
+#line10 { background: #8fb00e; }
+#line11 { background: #29b1a6; }
+#line12 { background: #8bc0d1; }
+
+/* Stations */
+.stations .sections { margin:0 0 2em 2.5em; }
+.stations .lead { margin-left:1.4em; }
+.stations dd .lead { margin-left:0; }
+.station-info { font-size:0.9em; }
+.station-info dt { margin-top:0.75em; }
+
+/* Articles */
+div#article		{clear:both;margin-bottom:2em;}
+div#article p	{font-size: 1em;}
+div#article p.small	{font-size: .9em;}
+div#article ul	{float:none;}
+div#article ul a {font-size: 1.1em; background: url(/i/arr.gif) center left no-repeat; padding-left: 15px;}
+dl.articles dd p{margin-top:0em;}
+dl.articles dt {margin-bottom:1em; width:4.5em; clear:left; margin-top:0px; //padding-top: 0.2em! important; }
+dl.articles dd {margin-bottom:0.5em; margin-left:0em; }
+dl.articles dd p{ font-style:normal;}
+dl.articles dd p.lead, dl.articles dd dd.lead, dl.sections dd.lead, dl.column dd.lead{ font-size:0.8em; padding-left:0em; margin-bottom:-0.5em;}
+
+#home-sections dd.lead{ padding-left:0px;}
+
+dl.articles dt.no_date {width:100%; float:none; margin-bottom:1.5em;}
+div#article-archive-link{clear:both; margin-left:4.86em;}
+dl.articles dd dl dt{width:inherit; margin-bottom:0em; margin-top:0.7em;}
+dl.sections dd.lead, dl.column dd.lead{margin-bottom:0.5em;}
+
+dl.column dd dt, dl.column dd{width:90%; margin-left:0.5em;}
+dl.articles dl.column dt{font-weight:bold; width:90%;}
+dl.articles dl.column dd dt{font-weight:normal;}
+dl.column dd.lead{margin-left:0.3em;}
+dl.column dl dd.lead{margin-left:0.8em;}
+ul.calendar li {float:left; margin-right:1em; margin-bottom:2em; margin-left:0em;}
+ul.calendar {margin-left:0em;}
+
+/* Library */
+#item-content	{ margin-bottom:4em; }
+#item-content img	{ display:inline; margin:1em 0.2em 0.2em;}
+#item-content .subsection
+
+/* Tags */
+#tag-cloud { margin:2em 0; }
+#tag-cloud .tag { padding-right:1em; }
+
+/* Search field */
+#search { margin:2em 0 5em 0; }
+#search input { width:100% !important; }
+#search .empty { color:#8e8e8e; }
+
+/*.text-content p { margin-bottom:2em; }*/
+
+/* Footer */
+
+
+
+#footer-search {
+float: left;
+width: 30%;
+//width:29%;
+}
+#artlebedev-logo { float: right; margin: 1em 0; margin-right:0.12em;}
+
+div.title{
+	font-size:0.8em;
+}
+
+div.title a{
+	font-size:1.22em;
+}
+
+.text-content small{
+	display:block;
+	font-size:0.8em;
+	margin-bottom:2em;
+	font-style:italic;
+}
+
+.subimage p{
+	display:block;
+	font-size:0.9em;
+	margin-bottom:2em;
+	font-style:italic;
+}
+
+.picture p{
+	display:block;
+	font-size:1.125em;
+	margin-bottom:2em;
+	padding-top:0.2em;
+/*	font-style:italic;  */
+}
+#home-header{
+	background-color:#000000;
+	color:#BEBEBE;
+	margin-top:2em;
+}
+
+#home-header .head-left{
+	width:32.5%;
+	line-height:1em;
+	padding-left:0px;
+	margin-top: 0.8em;
+}
+
+#home-header div.home-right{
+	width:67.35%;
+}
+
+h3{
+	margin-bottom:0.3em;
+	margin-top:1.5em;
+}
+
+.nav_cnt{
+	background:#000000 none repeat scroll 0 0;
+	display:block;
+	margin-left:-6%;
+	padding-left:6%;
+/*	padding-right:1.2%;
+	padding-right:5.6%;
+	padding-bottom: 0.5em; */
+	padding-bottom:0;
+	width:100%;
+	color: #FFFFFF;
+	font-size:130%;
+
+}
+
+#lib_navigation.nav_cnt{
+padding-top:0.5em;
+}
+
+.nav_cnt#lib_navigation, .nav_cnt#lib_navigation a {
+ 	background:#ffffff none repeat scroll 0 0;
+ 	color:#000000;
+}
+
+.nav_cnt h1{
+	font-size:3em;
+	font-weight:normal;
+	margin-bottom:0.5em;
+	color: #fff;
+	padding-bottom: 0.5em;
+}
+
+.nav_cnt h2 a{
+	color: #BEBEBE;
+	text-decoration: underline;
+}
+
+.nav_cnt h2{
+	font-size:2.5em;
+	font-weight:normal;
+	margin-bottom:0;
+	margin-top:0em;
+	color:#FFFFFF;
+}
+
+.nav_cnt#lib_navigation h2{
+ 	color:#000000;
+}
+
+div.layout .nav {
+	margin-top:0;
+}
+
+
+
+.nav a{
+	color: #fff;
+	text-decoration:underline;
+}
+
+
+
+.nav_cnt h1{
+	margin-top:0px;
+}
+
+#footer .home-left{
+width: 32%;
+padding-right:0%;
+}
+
+.body_smaller {
+font-size:85%;
+line-height: 125%;
+margin-bottom:0.5em;
+margin-top:0;
+text-indent:0;
+}
+
+.smaller {
+  font-size:85%;
+}
+
+.body_list {
+font-size:100%;
+line-height:130%;
+margin-bottom:1em;
+margin-top:0;
+text-indent:0;
+}
+
+/*
+p.logo{
+    margin-left: -37pt;
+}
+*/
+
+p.body{
+    margin-top:0;
+    line-height:130%;
+}
+
+h2.before-list{
+    margin-top:0;
+}
+
+h3.links{
+    margin-top:0;
+}
+
+p.extra{
+    margin-top:0;
+    margin-bottom: 1em;
+}
+
+a img #m2map{
+    text-decoration:none;  
+    margin-bottom: -3px; 
+    padding-right: 7px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    background-color: #000000;
+}
+
+#footer-search-main { 
+left:72em;
+position:relative;
+top:-3.6em;
+
+ width: 30%;
+}
+
+/* for galleries, maybe will have to delete */
+p small {
+display:block;
+margin-bottom:2em;
+}
+
+div#gallery p {
+margin-bottom:0.5em;
+margin-left:0;
+margin-right:0;
+margin-top:0.5em;
+}
+
+/* for /information/facts/timeline/ */
+table.data#timeline{
+	margin-top:-2em;
+	line-height:1.25em;
+}
+table.data#timeline p{
+		margin:0;
+}
+table.data#timeline tr td{
+		padding-bottom:1em;
+}
+table.data#timeline tr.nextyear td{
+		padding-top:2.5em;
+}
+
+table#history{
+		margin-left:-2em;
+}
+table#history p{
+		margin:0 0 0.5em;
+}
+
+table.html tbody tr td font i{
+	font-size:1.108em;
+	font-style:normal;
+	display:block;
+	margin-top:-0.22em;
+//	margin-top:0;
+}
+
+table.html tbody tr td{
+	padding: 0px;
+}
+table.html{
+	margin-bottom: 1.4em;
+}
+
+
+div#gallery p {
+margin:0;
+}
+div#gallery ul p, div#gallery ul div.t-txt-200 {
+margin:0.2em 0;
+font-size:1.059em;
+color:#BEBEBE;
+}
+
+div#gallery div.description description{
+
+  margin:-0.75em 0 0 0;
+}
+
+div#gallery div.description description p{
+  font-size:0.9em;
+
+}
+
+div#gallery div.description div.footnote {
+	font-style:normal;
+	margin-top:0.6em;
+}
+
+div#gallery div.description div.footnote p{
+  font-size:1em;
+}
+
+div#gallery div.description description div.quote{
+  font-size:1.01em;
+}
+.maps .tags {
+	display:none;
+}
+
+.subimage p {
+	font-size:1.059em;
+	font-style:normal;
+}
+
+div.preview-list dd {
+	color:#BEBEBE;
+	font-size:0.9em;
+}
+
+.maps #content .switch li a, .maps #content .switch li a span {
+	margin-right:0;
+	padding-right:0;
+}
+
+.maps #content .switch li a span, .maps #content .switch li b span{
+	font-size:0.9em;
+}
+
+.maps #content .switch li {
+	margin-right:0.9em;
+	padding-right:0.2em;
+
+}
+
+.maps #content .switch li b, .maps #content .switch li b span{
+	margin-right:0;
+	padding-right:0;
+}
+
+.switch_tabs span{
+	margin:0 5px;
+}
+
+.switch_tabs span.active {
+	background-color:#2F2F2F;
+	padding:2px;
+}
+
+.switch_tabs span.tagcount{
+	padding:0;
+	margin:0;
+}
+
+div.switch_tabs p {
+	font-size:85%;
+	line-height:130%;
+	margin-bottom:1.5em;
+}
+
+
+
+div.maps div.preview-list dl{
+	height:310px;
+}
+
+div.layout dl.station-info{
+margin-bottom:2em;
+}
+
+.nav_cnt p{
+	display:inline;
+}
+
+#search .pages{
+padding-left: 2.5em;
+}
+
+#search .align-center{
+// width:20em;
+// padding-left: 5em;
+}
+
+/*links without underlines for images*/
+a.ununderline { text-decoration:none }
